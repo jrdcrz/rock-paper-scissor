@@ -3,13 +3,64 @@
 
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport"
+                content="width=device-width
+                initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">        
         <title>Rock Paper Scissor Game</title>
 
 
     </head>
 
     <body>
-        <div id="userChoice"></div>
+        <div class="BG">
+            <img id="RPSBG" src="RPS.jpg">
+        </div>
+        <div id="GameName"></div>
+
+
+        <div class="score">
+            <div class="PlayerScore">
+                <h1>Player</h1>
+                <p class="play-count count"></p>
+            </div>
+    
+            <div class="computerScore">
+                <h1>Computer</h1>
+                <p class="comp-count count"></p>
+            </div>
+        </div>
+
+        <div class="Move-des">
+            <div class="move">Choose your Move</div>
+
+            <div class="movesleft">Moves Left: 5</div>
+        </div>
+
+    <div class="interface">
+
+    <div class="options">
+        <button class="rock">
+            <img class="rock-1" src="RPS1.png">
+            Rock
+        </button>
+        <button class="paper">
+            <img class="paper-1" src="RPS2.jpg">
+            Paper
+        </button>
+        <button class="scissor">
+            <img class="scissor-1" src="RPS3.jpg">
+            Scissor
+        </button>
+    </div>
+
+    </div>
+
+    <div class="Res-Ret">
+        <div class="result"></div>
+
+        <button class="retry">Retry</button>
+    </div>
         <script src="script.js"></script>
 
     </body>

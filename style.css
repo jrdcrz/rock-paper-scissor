@@ -1,3 +1,88 @@
-.flex {
+body{
+    margin: 0;
+}
+#RPSBG{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    filter: brightness(1.2);
+    z-index: -2;
+}
+
+.score {
+    color: aqua;
+    background-color: black;
+    padding: 20px 100px 10px 100px;
+    border-radius: 20px;
+    margin: 0px 400px 0px 350px;
+    text-align: center;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Move-des {
+    padding: 20px 20px 10px 500px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.move, .movesleft {
+        align-items: center;
+        border-radius: 20px;
+        color: aqua;
+        background-color: black;
+        margin: 5px;
+        align-items: center;
+}
+
+
+.interface {
+    padding: 80px 40px 10px 420px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.options {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.rock-1, .paper-1, .scissor-1 {
+    height: 40px;
+    width: 50px;
+}
+
+.rock, .paper, .scissor {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 15px;
+    align-items: center;
+}
+
+.Res-Ret {
+    padding: 20px 600px 10px 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.result, .retry {
+        align-items: center;
+        border-radius: 20px;
+        color: aqua;
+        background-color: black;
+        margin: 5px;
+        align-items: center;
 }
